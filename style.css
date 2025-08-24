@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+nav {
+    padding: 20px;
+    background-color: #3d3d3d;
+    color: #f1f1f1;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+}
+
+.container {
+    min-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.instruction {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-shadow: 4px 4px 4px grey;
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+#red {
+    background-color: red;
+}
+#blue {
+    background-color: blue;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
